@@ -1,0 +1,157 @@
+h1{
+    text-align: center;
+    padding-top:0.5em;
+}
+p{
+    margin:0;
+    padding:0;    
+}
+.pf-container2{
+    margin-left:1em;
+    padding: 5px;
+}
+.pf-container3{
+    margin-left:1em;
+}
+.lang-select{
+    
+    border-radius: 5px;
+    padding:2px;
+    cursor: pointer;
+    background-color: var(--bs-body-bg);
+}
+#contact{
+    width:80px;
+    text-align: center;
+}
+#lang-div{
+    margin-right:1em;
+    cursor: pointer;
+}
+#update{
+    margin-right:1em;
+}
+.h-flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-right{
+    justify-content: end;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.flex-evenly{
+    justify-content: space-evenly;
+}
+
+.profile-icon{
+    width:150px;
+    border-radius: 50%;
+    vertical-align: bottom;
+    align-items: center;
+    margin-top:1em;
+}
+.sns-icons{
+    margin-top:3px;
+    text-align: left;
+    padding: 0;
+}
+#x-icon, #mail-icon{
+    margin:0 0.5em;
+}
+
+.emphasized-text{
+    font-size:2em;
+}
+
+.skill-container{
+    background-color:rgba(76, 76, 86, 0.966);
+    width:280px;
+    margin:1em 0.5em;
+    border-radius:10px;
+    position:relative;
+}
+.skill-level{
+    display: inline-block;
+    text-align:right;
+    position: absolute;
+    right: 1em;
+    margin-top:-0.2em;
+}
+.skill-category-container{
+    display: block;
+    text-align: center;
+    margin: 0.2em 0;
+}
+.skill-category-icon{
+    width:30px;
+    height:auto;
+    margin:-0.5em 0.2em 0 0;
+}
+.skill-category-name{
+    display: inline-block;
+    margin-top:0.3em;
+}
+
+.flex-l, .flex-r{
+    margin:1em;
+}
+a:link, a:visited{
+    color:currentColor;
+    text-decoration: none;
+}
+
+.portfolio-prj-container{
+    margin-top: 1em;
+}
+.card{
+    margin: 1em 0;
+}
+.release-date{
+    font-size: small;
+    margin-left:0.5em;
+}
+
+footer{
+    margin-bottom:1em;
+}
+.footer-menus{
+    text-decoration: underline;
+}
+
+.invisible{
+    display:none;
+}
+
+#experience-list{
+    list-style: none;
+}
+.e-item{
+    width:300px;
+    margin-right:1em;
+}
+.w-item{
+    width:400px;
+    margin-right:1em;
+}
+.e-title{
+    color: var(	--bs-primary-text-emphasis);
+    text-decoration: underline var(--bs-primary-text-emphasis);
+}
+
+.cert-item::before{
+    content: "- ";
+}
+
+.card-text{
+    margin-bottom:1em;
+}
+
+#profile-description{
+    margin-bottom:1em;
+}
+

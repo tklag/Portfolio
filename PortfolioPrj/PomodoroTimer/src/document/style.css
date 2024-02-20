@@ -1,0 +1,20 @@
+main{
+    margin:1em;
+    overflow-x: auto;
+}
+img{
+    display: block;
+    border:1px currentColor solid;
+    margin:1em;
+    width:100px;
+}
+#img-1{
+    max-width:600px;
+    min-width:400px;
+    width:100%;
+}
+
+#img-2, #img-5{
+    width:300px;
+}
+
