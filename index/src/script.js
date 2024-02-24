@@ -53,7 +53,6 @@ const changeLanguage = (language) => {
     switch(language){
         case dict.lang[0]:
             for(let i=0; i<dict.item.length; i++){
-                console.log(dict.item[i][1]);
                 document.getElementById(dict.item[i][0]).innerText = dict.item[i][1];
             }
             break;
