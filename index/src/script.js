@@ -2,10 +2,11 @@ const langBtn = document.getElementById("lang-button");
 
 langBtn.addEventListener("change", ()=>changeLanguage(langBtn.value));
 
-$( document ).ready(() => {
-
+$( document ).ready(function(){
     changeLanguage("english");
 })
+
+
 
 const dict ={
     lang:["english", "japanese"],
@@ -27,8 +28,6 @@ const dict ={
         ["home-address","Living in Adelaide, Australia","アデレード在住(オーストラリア)"],
         ["contact","Contact","連絡先"],
         ["front-end","Front-End","フロントエンド"],
-        ["back-end", "Back-End", "バックエンド"],
-        ["other-skills", "Others", "その他"],
         ["language-skills","Languages","言語"],
         ["certificates", "Certificates", "資格等"],
         ["education-ex-key-1","Key subject areas: Digital Communication","専門: デジタル通信"],
@@ -51,17 +50,15 @@ const dict ={
 
 
 const changeLanguage = (language) => {
-    
     switch(language){
         case dict.lang[0]:
             for(let i=0; i<dict.item.length; i++){
-                
+                console.log(dict.item[i][1]);
                 document.getElementById(dict.item[i][0]).innerText = dict.item[i][1];
             }
             break;
         case dict.lang[1]:
             for(let i=0; i<dict.item.length; i++){
-                
                 document.getElementById(dict.item[i][0]).innerText = dict.item[i][2];
             }
             break;
