@@ -4,10 +4,10 @@ countMode.addEventListener("change", ()=>clickMenuBtn(40));
 /*Class definitions*/
 class Timer{
     constructor(){
-        this.min = 0;
-        this.sec = 5;
-        this.breakMin = 0;
-        this.breakSec = 5;
+        this.min = 25;
+        this.sec = 0;
+        this.breakMin = 5;
+        this.breakSec = 0;
         this.totalHour = 0;
         this.totalMin = 0;
         this.totalSec = 0;
