@@ -2,6 +2,10 @@ const langBtn = document.getElementById("lang-button");
 
 langBtn.addEventListener("change", ()=>changeLanguage(langBtn.value));
 
+$( document ).ready(() => {
+    changeLanguage(langBtn.value);
+})
+
 const dict ={
     lang:["english", "japanese"],
     item:[
@@ -24,20 +28,19 @@ const dict ={
         ["front-end","Front-End","フロントエンド"],
         ["back-end", "Back-End", "バックエンド"],
         ["other-skills", "Others", "その他"],
+        ["language-skills","Languages","言語"],
         ["certificates", "Certificates", "資格等"],
-        ["education-ex-course-1","Department of Computer Science and Electrical Engineering (Bachelor Course)","工学部情報電気電子工学科"],
-        ["education-ex-school-1","Kumamoto University, Japan","熊本大学"],
         ["education-ex-key-1","Key subject areas: Digital Communication","専門: デジタル通信"],
-        ["education-ex-course-2","Graduate School of  Science and Technology (Master's Course)","大学院自然科学研究科"],
-        ["education-ex-school-2","Kumamoto University, Japan","熊本大学"],
         ["education-ex-key-2","Key subject areas: Digital Communication","専門: デジタル通信"],
-        ["education-ex-course-3","Master of Computer Science","Master of Computer Science"],
-        ["education-ex-school-3","Flinders University, Australia","フリンダース大学"],
+        ["education-ex-course-1","Bachelor Degree of Computer Science, Japan","学士号: 情報電気電子専攻, 日本"],
+        ["education-ex-course-2","Master Degree of Computer Science, Japan","修士号: 情報専攻, 日本"],
+        ["education-ex-course-3","Master Degree of Computer Science, Australia","修士号: コンピュータサイエンス, オーストラリア"],
         ["education-ex-current","Current","現在"],
-        ["work-ex-company-1", "Mitsubishi Electric Corporation, Japan", "三菱電機株式会社"],
+        ["work-ex-company-1", "Application Software Engineer, Japan", "アプリケーションソフトウェアエンジニア"],
         ["work-ex-item-1","Windows application development (c#)","Windowsアプリケーション開発(C#)"],
         ["work-ex-item-2","Business planning and development","新規ビジネス企画・開発"],
         ["work-ex-item-3","Customer Support","カスタマーサポート"],
+        ["portfolio-prj-name-1", "Focus shortly and deeply", "Focus shortly and deeply"],
         ["portfolio-prj-description-1","Pomodoro Timer maximizes your study efficiency by deviding 2 phases (25min study & 5min break).","勉強の効率を最大化させる、ポモドーロタイマー(25分の勉強+5分の休憩)で短く深く集中。"],
         ["portfolio-prj-go-1","Go to Project","プロジェクト"],
         ["portfolio-prj-release-1","released: Feb-'24","リリース: '24/02"]
