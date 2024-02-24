@@ -3,7 +3,8 @@ const langBtn = document.getElementById("lang-button");
 langBtn.addEventListener("change", ()=>changeLanguage(langBtn.value));
 
 $( document ).ready(() => {
-    changeLanguage(langBtn.value);
+
+    changeLanguage("english");
 })
 
 const dict ={
